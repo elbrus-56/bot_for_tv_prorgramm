@@ -43,20 +43,10 @@ for item in all_channel:
 # print(json_tv)
 
 # передаем данные в json файл
-with open('data.json', 'w') as fp:
-    json.dump(json_tv_channel, fp, indent=2, ensure_ascii=False)
+# with open('data.json', 'w') as fp:
+    # json.dump(json_tv_channel, fp, indent=2, ensure_ascii=False)
 
-# n = json_tv[input()]
-# n = json_tv[input()][input()]
 
-# 
-# n = input()
-# for key in json_tv:
-key = input().lower()
-# time_show = input()
-if key in json_tv_channel.keys():
-    print(json_tv_channel[key])
-# print(time_show, json_tv[key][time_show])
 
 
 

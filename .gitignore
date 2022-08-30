@@ -126,9 +126,10 @@ venv.bak/
 dmypy.json
 
 
-main.py
+temp.py
 tv
 tv.html
+*.txt
 
 # Pyre type checker
 .pyre/
