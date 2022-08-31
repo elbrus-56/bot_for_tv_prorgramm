@@ -124,12 +124,14 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+get_updates.json
 
 
 temp.py
 tv
 tv.html
 *.txt
+misc.py
 
 # Pyre type checker
 .pyre/
